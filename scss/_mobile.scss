@@ -45,10 +45,19 @@
     transform: translate3d(-100%, 0, 0);
 
     .portrait {
-      background: url("../img/profile1.jpeg");
-      width: 130px;
-      height: 130px;
+      background: url("../img/potrait1.jpg");
+      width: 150px;
+      height: 150px;
     }
+  }
+  .about-info {
+    grid-template-areas:
+      "bioimage"
+      "bio"
+      "job1"
+      "job2"
+      "job3";
+    grid-template-columns: 1fr;
   }
 }
 
