@@ -47,7 +47,7 @@ main {
   //height: 100%;
   min-height: calc(100vh - 60px);
   .icons {
-    margin-top: 1rem;
+    margin-top: 2rem;
 
     a {
       padding: 0.4rem;
@@ -154,22 +154,19 @@ main {
 }
 
 //resume btn
-.resume {
-  margin: 0;
-  .btn1 {
-    border: 2px solid #fff;
-    background: none;
-    font-size: 1rem;
-    color: #fff;
-    cursor: pointer;
-    padding: 12px 25px;
-    overflow: hidden;
+.btn1 {
+  border-radius: 2px;
+  background-color: rgba(lighten($primary-color, 2), 0.9);
+  font-size: 1rem;
+  color: #fff;
+  cursor: pointer;
+  padding: 12px 25px;
+  overflow: hidden;
 
-    &:hover {
-      color: $secondary-color;
-      opacity: 0.6;
-      @include easeOut();
-    }
+  &:hover {
+    color: $secondary-color;
+    opacity: 0.6;
+    @include easeOut();
   }
 }
 

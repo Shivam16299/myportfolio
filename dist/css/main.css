@@ -230,7 +230,7 @@ main {
 }
 
 main .icons {
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 main .icons a {
@@ -358,13 +358,9 @@ main#home h1 {
   color: #000;
 }
 
-.resume {
-  margin: 0;
-}
-
-.resume .btn1 {
-  border: 2px solid #fff;
-  background: none;
+.btn1 {
+  border-radius: 2px;
+  background-color: rgba(73, 73, 73, 0.9);
   font-size: 1rem;
   color: #fff;
   cursor: pointer;
@@ -372,7 +368,7 @@ main#home h1 {
   overflow: hidden;
 }
 
-.resume .btn1:hover {
+.btn1:hover {
   color: #eece1a;
   opacity: 0.6;
   -webkit-transition: all 0.5s ease-out;
