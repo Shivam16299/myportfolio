@@ -342,8 +342,8 @@ main#home h1 {
 .boxes div {
   font-size: 2rem;
   border: 3px #fff solid;
-  padding: 1.5rem 2.5rem;
-  margin-bottom: 3rem;
+  padding: 1.5rem 1.5rem;
+  margin-bottom: 2rem;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
@@ -356,6 +356,73 @@ main#home h1 {
 
 .boxes div:hover span {
   color: #000;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+@keyframes load {
+  from {
+    width: 0%;
+  }
+}
+
+@-webkit-keyframes load {
+  from {
+    width: 0%;
+  }
+}
+
+.bar {
+  background-color: #444;
+  padding: 2px;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #000;
+  font-weight: bold;
+}
+
+.bar::before {
+  content: attr(data-skill);
+  background-color: #eece1a;
+  display: inline-block;
+  padding: 5px 0 5px 10px;
+  border-radius: inherit;
+  animation: load 3s 0s;
+  -webkit-animation: load 3s 0s;
+  -moz-animation: load 3s 0s;
+  -o-animation: load 3s 0s;
+}
+
+.bar.front::before {
+  background-color: #eece1a;
+}
+
+.bar.back::before {
+  background-color: #fff;
+}
+
+.bar.learning::before {
+  width: calc(20% - 10px);
+}
+
+.bar.basic::before {
+  width: calc(40% - 10px);
+}
+
+.bar.intermediate::before {
+  width: calc(60% - 10px);
+}
+
+.bar.advanced::before {
+  width: calc(80% - 10px);
+}
+
+.bar.expert::before {
+  width: calc(100% - 10px);
 }
 
 #main-footer {
