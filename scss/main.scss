@@ -65,6 +65,7 @@ main {
     }
   }
 }
+//resume btn
 
 .about-info {
   display: grid;
@@ -137,8 +138,8 @@ main {
   div {
     font-size: 2rem;
     border: 3px #fff solid;
-    padding: 1.5rem 2.5rem;
-    margin-bottom: 3rem;
+    padding: 1.5rem 1.5rem;
+    margin-bottom: 2rem;
     @include easeOut;
 
     &:hover {
@@ -151,6 +152,7 @@ main {
     }
   }
 }
+
 #main-footer {
   text-align: center;
   padding: 1rem;
