@@ -153,6 +153,26 @@ main {
   }
 }
 
+//resume btn
+.resume {
+  margin: 0;
+  .btn1 {
+    border: 2px solid #fff;
+    background: none;
+    font-size: 1rem;
+    color: #fff;
+    cursor: pointer;
+    padding: 12px 25px;
+    overflow: hidden;
+
+    &:hover {
+      color: $secondary-color;
+      opacity: 0.6;
+      @include easeOut();
+    }
+  }
+}
+
 //skill set
 
 .container {

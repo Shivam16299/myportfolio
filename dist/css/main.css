@@ -358,6 +358,27 @@ main#home h1 {
   color: #000;
 }
 
+.resume {
+  margin: 0;
+}
+
+.resume .btn1 {
+  border: 2px solid #fff;
+  background: none;
+  font-size: 1rem;
+  color: #fff;
+  cursor: pointer;
+  padding: 12px 25px;
+  overflow: hidden;
+}
+
+.resume .btn1:hover {
+  color: #eece1a;
+  opacity: 0.6;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
 .container {
   width: 50%;
   margin: 0 auto;
