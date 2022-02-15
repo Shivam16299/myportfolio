@@ -1,0 +1,15 @@
+{
+  "name": "myportfolio",
+  "version": "1.0.0",
+  "description": "myportfolio",
+  "main": "index.js",
+  "homepage": "https://github.com/Shivam16299/myportfolio.git",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Shivam kumar",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
